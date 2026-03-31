@@ -1,0 +1,13 @@
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Compressed/source PDFs (originals managed separately)
+*.zip
+*.tar.gz
+
+# Temp files
+*.tmp
+*.bak
+~$*
