@@ -6,18 +6,6 @@ Official brand assets for PayFacto — North America's leading provider of payme
 
 > **Expertise · Agility · Execution**
 
----
-## ⚠ Asset Usage — Check Local Files First
-
-Logo and chip assets are bundled in this skill at:
-  /mnt/skills/user/payfacto-brand-guidelines/assets/logos/
-
-Always use local files before attempting any GitHub URL.
-To embed in HTML: base64-encode the PNG and use a data URI.
-GitHub URLs in this skill require raw.githubusercontent.com — 
-network access may be restricted.
-
-
 ## Contents
 
 | Folder / File | Description |
