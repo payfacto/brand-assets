@@ -1,12 +1,22 @@
-<img src="PayFacto-Logo/PayFacto - Logo/PayFacto - Logo BLACK-GOLD/PayFacto - Logo BLACK-GOLD.png" alt="PayFacto" width="260" />
-
 # PayFacto Brand Assets
+
+![PayFacto](assets/banner.png)
 
 Official brand assets for PayFacto — North America's leading provider of payment solutions and technology to the hospitality industry.
 
 > **Expertise · Agility · Execution**
 
 ---
+## ⚠ Asset Usage — Check Local Files First
+
+Logo and chip assets are bundled in this skill at:
+  /mnt/skills/user/payfacto-brand-guidelines/assets/logos/
+
+Always use local files before attempting any GitHub URL.
+To embed in HTML: base64-encode the PNG and use a data URI.
+GitHub URLs in this skill require raw.githubusercontent.com — 
+network access may be restricted.
+
 
 ## Contents
 

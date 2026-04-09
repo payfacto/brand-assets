@@ -1,6 +1,6 @@
 ---
 name: payfacto-brand-guidelines
-description: "Official PayFacto brand guidelines skill. Apply when creating any PayFacto-branded material including UI, presentations, documents, emails, icons, or code. Use when asked about PayFacto colors, fonts, logos, design standards, or brand compliance. Covers colors, typography, logo usage rules, icons, photography, email signatures, and business cards. Source of truth - official Brand Guidelines v2 May 2021 PDF."
+description: "Use when creating any PayFacto-branded material, or when asked about PayFacto colors, fonts, logos, icons, photography, email signatures, or brand compliance."
 license: CC-BY-4.0
 ---
 
@@ -8,7 +8,17 @@ license: CC-BY-4.0
 
 Official brand standards for PayFacto — North America's leading provider of payment solutions and technology to the hospitality industry. Recognized for expertise, flexibility, and quality of execution.
 
-**Source priority:** Values in this skill come from the official Brand Guidelines PDF (May 2021) and override any other source.
+---
+
+## Logo Assets (Always Available)
+
+The BLACK-GOLD and WHITE-GOLD logos are **embedded in this skill as base64 PNG and inline SVG** — use them in any output without network access or filesystem paths. See the **Embedded Logo Assets** section near the bottom for the actual data.
+
+- **HTML `<img>` tag:** `<img src="data:image/png;base64,[BASE64 BLOCK]" alt="PayFacto">`
+- **Inline SVG:** paste the SVG block directly into HTML markup
+- **Python (docx/pptx):** `io.BytesIO(base64.b64decode("[BASE64 BLOCK]"))` → pass to `add_picture()`
+
+For icons or other logo variants, see **Asset Locations Reference**.
 
 ---
 
@@ -81,10 +91,12 @@ In Outlook: File → Options → Mail → Signatures
 
 ## Logo Usage
 
-- **Use GitHub** as the primary/authoritative source for web-based workflows
-- **Use local skill files** only when you explicitly need offline access or are working in CoWork
+**Asset priority:**
+1. **Embedded assets** (in this skill) — always works, no network or filesystem needed
+2. **GitHub URLs** — when you need SVG or icon files not embedded here
+3. **Local skill files** — only when offline
 
-See "Asset Locations Reference" at the end of this document for details.
+See **Asset Locations Reference** for GitHub URLs and local paths.
 
 ### Logo Rules
 
