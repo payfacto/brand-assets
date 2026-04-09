@@ -24,7 +24,6 @@ network access may be restricted.
 |---|---|
 | [`PayFacto-Logo/`](PayFacto-Logo/) | Full logo and chip symbol in all approved color variants (`.eps`, `.jpg`, `.png`, `.svg`) |
 | [`PayFacto-Icon-Library/`](PayFacto-Icon-Library/) | 80 icons × 4 color variants — BLACK, BLACK-GOLD, WHITE, WHITE-GOLD (`.png`, `.svg`) |
-| [`PayFacto_Brand_Reference.md`](PayFacto_Brand_Reference.md) | Quick-reference color palette, typography, and usage rules |
 | [`official brand-guideline-2021-v2_compressed.pdf`](official%20brand-guideline-2021-v2_compressed.pdf) | Full brand guidelines PDF (May 2021) — authoritative source |
 
 ---
@@ -35,8 +34,6 @@ network access may be restricted.
 |---|---|---|
 | **BLACK-GOLD** | White or light backgrounds | `.eps` `.jpg` `.png` `.svg` |
 | **WHITE-GOLD** | Dark / black backgrounds | `.eps` `.png` `.svg` |
-| **BLACK** | Light neutral backgrounds (single color) | `.eps` `.jpg` `.png` `.svg` |
-| **WHITE** | Dark backgrounds (single color) | `.eps` `.png` `.svg` |
 
 The chip symbol is also available standalone (BLACK, GOLD, WHITE) under `PayFacto-Logo/PayFacto - Chip/`.
 
